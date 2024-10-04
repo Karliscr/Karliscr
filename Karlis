@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karla - Venta de Ropa Shein Costa Rica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5ebe0; /* Beige suave */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f7d1d1; /* Rosado claro */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #333;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .product-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 200px;
+            padding: 15px;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product-card h3 {
+            margin: 10px 0 5px;
+        }
+        .product-card p {
+            font-size: 14px;
+            color: #777;
+        }
+        .contact {
+            background-color: #f7d1d1;
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Karla - Venta de Ropa Shein en Costa Rica</h1>
+    </header>
+
+    <nav>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="pantalon.PNG".>
+                <h3>Pantalon de Pinza </h3>
+                <p>Precio: ₡14,000</p>
+            </div>
+            <div class="product-card">
+                <img src="vestido.PNG">
+                <h3>Vestido Blanco</h3>
+                <p>Precio: ₡16,000</p>
+            </div>
+            <div class="product-card">
+                <img src="conjunto.jpg">
+                <h3>Conjunto</h3>
+                <p>Precio: ₡18,000</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <p>Si estás interesado en alguno de nuestros productos, contáctanos:</p>
+        <p>Email: karliscr2021@gmail.com</p>
+        <p>Teléfono: +506 71587862</p>
+	
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Karlis - Venta de Ropa Shein en Costa Rica</p>
+    </footer>
+
+</body>
+</html>
